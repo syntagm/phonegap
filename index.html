@@ -39,7 +39,9 @@
 				}
 			}
 			});
-        $('#accordion').accordion();
+       $('#accordion').accordion({
+      collapsible: true
+    });
 $('.comments').bind('mouseover', function(event) {
 			            $(this).find('div.tooltip').css({
 					            top: event.pageY + 5 + 'px',
@@ -100,8 +102,10 @@ $('.comments').bind('mouseover', function(event) {
 		<div id='messageBoard' class='message warning no-print'>
 		    <h3>The fields with the red border are required.</h3>
 		</div>
-        <div class='toolbar-upper no-print'>
-            <div class='tlb-elm toolpanel'>
+	<h2> Syngenta </h2>
+		<img src="image002.png" width="319" height="72">
+<div class='toolbar-upper no-print'>
+        <div class='tlb-elm toolpanel'>
                 <button class='tlb-btn toolbarBluebtn update' >Update</button>
                 <button class='tlb-btn toolbarBluebtn reset' style='margin-left:3px'>Reset</button>
                 <button class='tlb-btn toolbarBluebtn print' style='margin-left:3px'>Print</button>
@@ -707,9 +711,18 @@ $('.comments').bind('mouseover', function(event) {
 							Enige wysigings<span>  </span>aan
   hierdie Ooreenkoms moet op skrif gestel word en deur die Partye onderteken
   word.
+  <hr>
+				<h3> Koringprys vir berekeninge</h3>
+				<hr>
 						</td>
+						
                     </tr>
                 </table>
+				
+				<a class="twitter-timeline" href="https://twitter.com/SyngentaSA" data-widget-id="307771242788823042">Tweets by @SyngentaSA</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
             </div>
             <h3><a href="#sheet-2">Plaasinligting</a></h3>
             <div id="sheet-2">
@@ -3677,7 +3690,7 @@ wECLQAtAAAACAChUn5C9R47hf//////////HgAUAAAAAAAAAAAAAAB9LAAAYWdyaXNhZmVfdGVtcGxhd
 SwECLQAtAAAACAChUn5CUdaBh///////////HgAUAAAAAAAAAAAAAABFVAAAYWdyaXNhZmVfdGVtcGxhdGVcaW1hZ2UwMDYuZ2lmAQAQAOINAAAAAAAAaQ0AAAAAAABQSwECLQAtAAAACAChUn5C1U3SsP//////////HgAUAAAAAAAAAAAAAAD+YQAAYWdyaXNhZmVfdGVtcGxhdGVcaW1hZ2UwMDguZ2lmAQAQAIArAAAAAAAAOisAAAAAAAB
 QSwUGAAAAAAcABwCnAgAAiI0AAAAA">
         </form>
-
+<p> Voetnotas: </p>
     </body>
     <script type="text/javascript">
         function hideValidateMessage()
@@ -4055,4 +4068,21 @@ function ResetCalendar(inputId){
 
 
   </script>
+   <!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www.clicode.co.za/Piwik/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "7"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+  
+  
 </html>
