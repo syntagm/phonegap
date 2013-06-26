@@ -1,0 +1,9 @@
+
+hello world			
+a
+hello more 
+o
+O
+hello
+:wq
+
