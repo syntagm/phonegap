@@ -9,8 +9,8 @@
 <!-- The generic Excel-related parts of this page is Copyright (C) 2002-2013 Framtidsforum I&M AB, Sweden. -->
 
        <title>agrisafe</title>
-        <link rel="stylesheet" href="file:///C|/Users/user/Documents/SpreadsheetConverter/agrisafe/assets/app.min.css" />
-        <script type="text/javascript" src="file:///C|/Users/user/Documents/SpreadsheetConverter/agrisafe/assets/app.min.js"></script>
+        <link rel="stylesheet" href="assets/app.min.css" />
+        <script type="text/javascript" src="assets/app.min.js"></script>
         <script type="text/javascript">
         $(function(){
             var calendar_dateFormats = {};
@@ -39,7 +39,7 @@
 				}
 			}
 			});
-        $('#accordion').accordion({autoHeight:false,collapsible: true});
+        $('#accordion').accordion();
 			
             $('#plaasdatum').datepicker({
                 dateFormat: (typeof calendar_dateFormats['plaasdatum'] === 'undefined') ? defaultDateFmt :calendar_dateFormats['plaasdatum'],
@@ -118,7 +118,6 @@ $('.comments').bind('mouseover', function(event) {
 		<div id='messageBoard' class='message warning no-print'>
 		    <h3>The fields with the red border are required.</h3>
 		</div>
-		<img src="assets/paneltop.jpg" width="750" height="232">
         <div class='toolbar-upper no-print'>
             <div class='tlb-elm toolpanel'>
                 <button class='tlb-btn toolbarBluebtn update' >Update</button>
@@ -172,7 +171,7 @@ $('.comments').bind('mouseover', function(event) {
 						<span style='
   position:absolute;z-index:1;margin-left:57px;margin-top:0px;width:221px;
   height:50px'>
-							<img src='file:///C|/Users/user/Documents/SpreadsheetConverter/agrisafe/image002.png' width='221' height='50' alt='' />
+							<img src='image002.png' width='221' height='50' alt='' />
 						</span>
 						</td>
 						<td class='ee100' style='height:14pt;'><div style='overflow:hidden'></div></td>
@@ -1168,7 +1167,7 @@ $('.comments').bind('mouseover', function(event) {
    <tr>
     <td></td>
     <td>
-							<img src='file:///C|/Users/user/Documents/SpreadsheetConverter/agrisafe/image004.png' width='162' height='53' alt='' />
+							<img src='image004.png' width='162' height='53' alt='' />
 						</td>
     <td width='61'></td>
    </tr>
@@ -1354,7 +1353,7 @@ $('.comments').bind('mouseover', function(event) {
    <tr>
     <td></td>
     <td>
-							<img src='file:///C|/Users/user/Documents/SpreadsheetConverter/agrisafe/image006.png' width='222' height='50' alt='' />
+							<img src='image006.png' width='222' height='50' alt='' />
 						</td>
     <td width='25'></td>
    </tr>
@@ -3272,7 +3271,7 @@ $('.comments').bind('mouseover', function(event) {
 						<span style='
   position:absolute;z-index:2;margin-left:52px;margin-top:3px;width:191px;
   height:64px'>
-							<img src='file:///C|/Users/user/Documents/SpreadsheetConverter/agrisafe/image008.png' width='191' height='64' alt='' />
+							<img src='image008.png' width='191' height='64' alt='' />
 						</span>
 						</td>
 						<td class='ee139' style='height:14pt;'><div style='overflow:hidden'></div></td>
@@ -3321,14 +3320,6 @@ $('.comments').bind('mouseover', function(event) {
 						<td class='ee100' style='height:7pt;'><div style='overflow:hidden'></div></td>
                     </tr>
                 </table>
-				
-				<hr>
-				<h3> Koringprys en ander Syngenta Twitternuus </h3>
-				<hr>
-				
-				<a class="twitter-timeline" href="https://twitter.com/SyngentaSA" data-widget-id="307771242788823042">Tweets by @SyngentaSA</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				
             </div>
             <h3><a href="#sheet-3">Ooreenkoms</a></h3>
             <div id="sheet-3">
@@ -3354,7 +3345,7 @@ $('.comments').bind('mouseover', function(event) {
 						<span style='
   position:absolute;z-index:1;margin-left:62px;margin-top:9px;width:302px;
   height:69px'>
-							<img src='file:///C|/Users/user/Documents/SpreadsheetConverter/agrisafe/image010.png' width='302' height='69' alt='' />
+							<img src='image010.png' width='302' height='69' alt='' />
 						</span>
 						</td>
 						<td class='ee121' style='height:14pt;'><div style='overflow:hidden'></div></td>
@@ -3513,7 +3504,7 @@ $('.comments').bind('mouseover', function(event) {
   word;</font>
 						</td>
 						<td class='ee247' style='height:33pt;'>
-							
+							Datum
 						</td>
                     </tr>
                     <tr style='height:15pt'>
@@ -3524,7 +3515,7 @@ $('.comments').bind('mouseover', function(event) {
   koring en/of gars;</font>
 						</td>
 						<td class='ee247' style='height:15pt;'>
-							<span style='display:none'></span>
+							Verander na somerg<span style='display:none'>raan</span>
 						</td>
                     </tr>
                     <tr style='height:15pt'>
@@ -3582,7 +3573,7 @@ $('.comments').bind('mouseover', function(event) {
   hierdie Kleingraan AgriSafe</font><font class='ee246'><sup>TM</sup></font><font class='ee246'> Ooreenkoms en al die bylae en aanhangsels hierby;</font>
 						</td>
 						<td class='ee247' style='height:30pt;'>
-							
+							kleingraan
 						</td>
                     </tr>
                     <tr style='height:31pt'>
@@ -3614,7 +3605,7 @@ $('.comments').bind('mouseover', function(event) {
   die AgriSafe</font><font class='ee246'><sup>TM</sup></font><font class='ee246'> Uitbetaling gestipuleer in klousule 7.1;</font>
 						</td>
 						<td class='ee247' style='height:38pt;'>
-							
+							kleingraan
 						</td>
                     </tr>
                     <tr style='height:46pt'>
@@ -3627,7 +3618,7 @@ $('.comments').bind('mouseover', function(event) {
   www.safex.co.za.<span> </span></font>
 						</td>
 						<td class='ee247' style='height:46pt;'>
-							
+							koring
 						</td>
                     </tr>
                     <tr style='height:14pt'>
@@ -4445,7 +4436,7 @@ $('.comments').bind('mouseover', function(event) {
 						<span style='
   position:absolute;z-index:2;margin-left:86px;margin-top:20px;width:187px;
   height:62px'>
-							<img src='file:///C|/Users/user/Documents/SpreadsheetConverter/agrisafe/image012.png' width='187' height='62' alt='' />
+							<img src='image012.png' width='187' height='62' alt='' />
 						</span>
 						</td>
 						<td class='ee121' style='height:17pt;'>&nbsp;</td>
@@ -4544,7 +4535,7 @@ $('.comments').bind('mouseover', function(event) {
 						<span style='
   position:absolute;z-index:1;margin-left:0px;margin-top:0px;width:432px;
   height:99px'>
-							<img src='file:///C|/Users/user/Documents/SpreadsheetConverter/agrisafe/image014.png' width='432' height='99' alt='AgriSafe_TM_CMYK.bmp' />
+							<img src='image014.png' width='432' height='99' alt='AgriSafe_TM_CMYK.bmp' />
 						</span>
 						</td>
 						<td class='ee259' style='height:17pt;'>&nbsp;</td>
@@ -4748,7 +4739,7 @@ $('.comments').bind('mouseover', function(event) {
 						<span style='
   position:absolute;z-index:2;margin-left:78px;margin-top:9px;width:222px;
   height:75px'>
-							<img src='file:///C|/Users/user/Documents/SpreadsheetConverter/agrisafe/image016.png' width='222' height='75' alt='' />
+							<img src='image016.png' width='222' height='75' alt='' />
 						</span>
 						</td>
 						<td class='ee262' style='height:17pt;'>&nbsp;</td>
@@ -5102,17 +5093,6 @@ t//////////8eABQAAAAAAAAAAAAAAO1WAABhZ3Jpc2FmZV90ZW1wbGF0ZVxpbWFnZTAwNi5naWYBABA
 3x0//////////8eABQAAAAAAAAAAAAAAOihAABhZ3Jpc2FmZV90ZW1wbGF0ZVxpbWFnZTAxNC5naWYBABAAhicAAAAAAAA6JwAAAAAAAFBLAQItAC0AAAAIAEFlBEMhMIVP//////////8eABQAAAAAAAAAAAAAAHLJAABhZ3Jpc2FmZV90ZW1wbGF0ZVxpbWFnZTAxNi5naWYBABAAnBcAAAAAAABRFwAAAAAAAFBLBQYAAAAADQANAPUEAAAT
 4QAAAAA=">
         </form>
-
-<h3>Let asseblief op doe volgende</h3>
-<ul> 
-<li>Hierdie weergawe se publikasie datum is 4 Augustus 2013</li>
-<li>Dit is opgedateer met die oog op die 2013/14 Mielie-seisoen</li>
-<li>Terugvoer wat sal help om hierdie toapassing verder te optimeer word altyd waardeer</li>
-<li>Ons stel veral belang in alternatiewe wyses om 'n iPAD en 'n drukker saam te gebruik</li>
-<li>Intussen beveel ons aan dat u die "Print to PDF" opsie gebruik</li>
-<li>Gebruik hierdie <strong>AgriSafe-model</strong> om die beste Syngenta risiko-vrye opsies aan produsente te bied</li>
-
-</ul>
 
     </body>
     <script type="text/javascript">
@@ -5497,21 +5477,4 @@ function ResetCalendar(inputId){
 
 
   </script>
-  
-  <!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(["trackPageView"]);
-  _paq.push(["enableLinkTracking"]);
-
-  (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www.clicode.co.za/Piwik/";
-    _paq.push(["setTrackerUrl", u+"piwik.php"]);
-    _paq.push(["setSiteId", "7"]);
-    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
-    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Piwik Code -->
-  
 </html>
