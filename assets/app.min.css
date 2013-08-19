@@ -1174,6 +1174,7 @@ body .ui-tooltip {
 }
 
 
+
 /*!
  * jQuery UI Resizable 1.8.21
  *
@@ -1939,6 +1940,7 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	border: 2px
 }
 
+
 .toolbarGreenbtn {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79c979), color-stop(1, #00901b) );
 	background:-moz-linear-gradient( center top, #79c979 5%, #00901b 100% );
@@ -1993,7 +1995,6 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	position:relative;
 	top:1px
 }
-
 
 .tlb-nav-link {
 	display: table;
@@ -3171,6 +3172,15 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	text-align: center;
 	vertical-align: middle
 }
+.ee237 {
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 14.00pt;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle
+}
 .ee238 {
 	color: #000;
 	font-family: Arial, sans-serif;
@@ -3306,7 +3316,8 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	background: #fff;
 	font-family: Arial, sans-serif;
 	font-size: 12.00pt;
-	text-align: center
+	text-align: center;
+	vertical-align: middle
 }
 .ee254 {
 	color: #000;
@@ -3318,7 +3329,7 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	padding-right: 1px;
 	padding-top: 1px;
 	text-align: center;
-	vertical-align: bottom
+	vertical-align: middle
 }
 .ee257 {
 	background: #fff;
@@ -3331,21 +3342,9 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	padding-right: 1px;
 	padding-top: 1px;
 	text-align: center;
-	vertical-align: bottom
+	vertical-align: middle
 }
 .ee259 {
-	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 12.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: left;
-	vertical-align: bottom
-}
-.ee262 {
 	color: #000;
 	font-family: Arial, sans-serif;
 	font-size: 22.00pt;
@@ -3354,22 +3353,10 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	padding-left: 1px;
 	padding-right: 1px;
 	padding-top: 1px;
-	text-align: left;
-	vertical-align: bottom
+	text-align: center;
+	vertical-align: middle
 }
-.ee264 {
-	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 14.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: left;
-	vertical-align: bottom
-}
-.ee267 {
+.ee262 {
 	background: #fff;
 	color: #000;
 	font-family: Arial, sans-serif;
@@ -3379,8 +3366,79 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	padding-left: 0;
 	padding-right: 1px;
 	padding-top: 0;
-	text-align: right;
-	vertical-align: bottom
+	text-align: center;
+	vertical-align: middle
+}
+.ee263 {
+	background: #fff;
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 14.00pt;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle
+}
+.ee264 {
+	background: #fff;
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 14.00pt;
+	font-style: normal;
+	font-weight: 400;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	text-align: center;
+	vertical-align: middle
+}
+.ee265 {
+	background: #DADFBB;
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 14.00pt;
+	font-style: normal;
+	font-weight: 400;
+	padding-left: 0;
+	padding-right: 1px;
+	padding-top: 0;
+	text-align: center;
+	vertical-align: middle
+}
+.ee266 {
+	background: #DADFBB;
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 14.00pt;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle
+}
+.ee267 {
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 14.00pt;
+	font-style: normal;
+	font-weight: 400;
+	padding-left: 0;
+	padding-right: 1px;
+	padding-top: 0;
+	text-align: center;
+	vertical-align: middle
+}
+.ee268 {
+	background: #fff;
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 14.00pt;
+	font-style: normal;
+	font-weight: 700;
+	padding-left: 0;
+	padding-right: 1px;
+	padding-top: 0;
+	text-align: center;
+	vertical-align: middle
 }
 .ee269 {
 	background: #fff;
@@ -3388,108 +3446,17 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	font-family: Arial, sans-serif;
 	font-size: 14.00pt;
 	font-style: normal;
-	font-weight: 400;
-	text-align: right;
-	vertical-align: bottom
+	font-weight: 700;
+	text-align: center;
+	vertical-align: middle
 }
 .ee270 {
-	background: #fff;
-	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 14.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: center;
-	vertical-align: bottom
-}
-.ee273 {
-	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 14.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: center;
-	vertical-align: bottom
-}
-.ee275 {
-	background: #DADFBB;
-	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 14.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 0;
-	padding-right: 1px;
-	padding-top: 0;
-	text-align: right;
-	vertical-align: bottom
-}
-.ee276 {
-	background: #DADFBB;
-	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 14.00pt;
-	font-style: normal;
-	font-weight: 400;
-	text-align: right;
-	vertical-align: bottom
-}
-.ee277 {
-	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 14.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 0;
-	padding-right: 1px;
-	padding-top: 0;
-	text-align: right;
-	vertical-align: bottom
-}
-.ee278 {
-	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 14.00pt;
-	font-style: normal;
-	font-weight: 400;
-	text-align: right;
-	vertical-align: bottom
-}
-.ee279 {
-	background: #fff;
-	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 14.00pt;
-	font-style: normal;
-	font-weight: 700;
-	padding-left: 0;
-	padding-right: 1px;
-	padding-top: 0;
-	text-align: right;
-	vertical-align: bottom
-}
-.ee281 {
-	background: #fff;
-	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 14.00pt;
-	font-style: normal;
-	font-weight: 700;
-	text-align: right;
-	vertical-align: bottom
-}
-.ee282 {
 	font-family: Arial, sans-serif;
 	font-size: 12.00pt;
-	text-align: center
+	text-align: center;
+	vertical-align: middle
 }
-.ee283 {
+.ee271 {
 	background: #16365C;
 	color: #000;
 	font-family: Arial, sans-serif;
@@ -3500,20 +3467,7 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	padding-right: 1px;
 	padding-top: 1px;
 	text-align: center;
-	vertical-align: bottom
-}
-.ee285 {
-	background: #16365C;
-	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 12.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: left;
-	vertical-align: bottom
+	vertical-align: middle
 }
 textarea {
 	overflow: auto
