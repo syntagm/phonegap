@@ -6,6 +6,7 @@
 
 /* Layout helpers
 ----------------------------------*/
+
 img {
 max-width: 100%;
 }
@@ -1177,7 +1178,6 @@ body .ui-tooltip {
 	border-radius: 8px;
 }
 
-
 /*!
  * jQuery UI Resizable 1.8.21
  *
@@ -1965,7 +1965,6 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	border: 2px
 }
 
-
 .toolbarGreenbtn {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79c979), color-stop(1, #00901b) );
 	background:-moz-linear-gradient( center top, #79c979 5%, #00901b 100% );
@@ -2020,6 +2019,7 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	position:relative;
 	top:1px
 }
+
 
 .tlb-nav-link {
 	display: table;
@@ -4367,19 +4367,6 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	vertical-align: middle
 }
 .ee383 {
-	background: #D5D6A2;
-	color: #000;
-	font-family: Arial, sans-serif;
-	font-size: 11.00pt;
-	font-style: normal;
-	font-weight: 400;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-top: 1px;
-	text-align: center;
-	vertical-align: middle
-}
-.ee384 {
 	background: #16365C;
 	color: #000;
 	font-family: Arial, sans-serif;
@@ -4392,7 +4379,7 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	text-align: left;
 	vertical-align: bottom
 }
-.ee386 {
+.ee385 {
 	color: #fff;
 	font-family: Arial, sans-serif;
 	font-size: 11.00pt;
@@ -4404,7 +4391,7 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	text-align: left;
 	vertical-align: bottom
 }
-.ee387 {
+.ee386 {
 	color: #fff;
 	font-family: Arial, sans-serif;
 	font-size: 11.00pt;
