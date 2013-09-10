@@ -7,6 +7,7 @@
 /* Layout helpers
 ----------------------------------*/
 
+
 img {
 max-width: 100%;
 }
@@ -1177,7 +1178,6 @@ body .ui-tooltip {
 	border-radius: 8px;
 }
 
-
 /*!
  * jQuery UI Resizable 1.8.21
  *
@@ -1833,80 +1833,58 @@ padding:0
 }
 .error {
 	border: 2px solid red;
-!important background-color:#FFFFD5;
-!important
-}
-.error {
-	border: 2px solid red!important;
-	background-color: #FFFFD5!important
+	background-color: #FFFFD5
 }
 .message {
 	-webkit-background-size: 40px 40px;
 	-moz-background-size: 40px 40px;
 	background-size: 40px 40px;
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(.25, rgba(255,255,255,.05)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255,255,255,.05)), color-stop(.75, rgba(255,255,255,.05)), color-stop(.75, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(135deg, rgba(255,255,255,.05) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.05) 50%, rgba(255,255,255,.05) 75%, transparent 75%, transparent);
+	background-image: -moz-linear-gradient(135deg, rgba(255,255,255,.05) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.05) 50%, rgba(255,255,255,.05) 75%, transparent 75%, transparent);
+	background-image: -ms-linear-gradient(135deg, rgba(255,255,255,.05) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.05) 50%, rgba(255,255,255,.05) 75%, transparent 75%, transparent);
+	background-image: -o-linear-gradient(135deg, rgba(255,255,255,.05) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.05) 50%, rgba(255,255,255,.05) 75%, transparent 75%, transparent);
+	background-image: linear-gradient(135deg, rgba(255,255,255,.05) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.05) 50%, rgba(255,255,255,.05) 75%, transparent 75%, transparent);
 	-moz-box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
 	-webkit-box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
 	box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
 	width: 100%;
 	border: 1px solid;
 	color: #E92626;
+	padding: 10px;
 	position: fixed;
 	_position: absolute;
+	-webkit-animation: animate-bg 5s linear infinite;
+	-moz-animation: animate-bg 5s linear infinite;
 	margin-left: -10px;
-	z-index: 10000;
-	padding: 10px
+	z-index: 10000
 }
 .warning {
 	background-color: #EABF51;
 	border-color: #D9B236
 }
 .message h3 {
-	float: left;
+	margin: 0 0 5px 0
+}
+@-webkit-keyframes animate-bg {
+from {
+background-position:0 0
+}
+to {
+	background-position: -80px 0
+}
+}
+@-moz-keyframes animate-bg {
+from {
+background-position:0 0
+}
+to {
+	background-position: -80px 0
+}
+}
+.message h3 {
 	font: 12px Arial, Helvetica, sans-serif bold;
-	font-weight: 700;
-	margin: 0 0 5px
-}
-#closeMessageBar {
-	border-radius: 100%;
-	color: #585858;
-	height: 10px;
-	position: relative;
-	text-indent: -9999px;
-	width: 10px;
-	float: right;
-	display: inline;
-	border-style: solid;
-	border-width: 3px;
-	margin: auto 18px auto auto
-}
-#closeMessageBar:hover {
-	color: #999
-}
-.arrow-t-b:after, .arrow-t-b:before, .arrow-l-r:after, .arrow-l-r:before {
-	content: "";
-	left: 2px;
-	top: 0;
-	position: absolute;
-	border-color: transparent;
-	border-style: solid;
-	border-width: 3px
-}
-.arrow-t-b:after {
-	border-top-color: inherit
-}
-.arrow-l-r:after {
-	border-right-color: inherit;
-	left: 4px;
-	top: 2px
-}
-.arrow-t-b:before {
-	border-bottom-color: inherit;
-	bottom: 0
-}
-.arrow-l-r:before {
-	border-left-color: inherit;
-	left: 0;
-	top: 2px
+	font-weight: 700
 }
 input, input[type="password"], input[type="search"], isindex, textarea {
 	-moz-box-sizing: border-box;
@@ -1964,6 +1942,7 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	margin: auto 0;
 	border: 2px
 }
+
 
 .toolbarGreenbtn {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79c979), color-stop(1, #00901b) );
