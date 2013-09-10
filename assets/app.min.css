@@ -10,7 +10,6 @@
 img {
 max-width: 100%;
 }
-
 .ui-helper-hidden {
 	display: none;
 }
@@ -1178,6 +1177,7 @@ body .ui-tooltip {
 	border-radius: 8px;
 }
 
+
 /*!
  * jQuery UI Resizable 1.8.21
  *
@@ -2019,7 +2019,6 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 	position:relative;
 	top:1px
 }
-
 
 .tlb-nav-link {
 	display: table;
