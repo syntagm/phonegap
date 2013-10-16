@@ -6,7 +6,6 @@
 
 /* Layout helpers
 ----------------------------------*/
-
 img {
 max-width: 100%;
 }
@@ -4201,13 +4200,13 @@ input, input[type="password"], input[type="search"], isindex, textarea {
 }
 .ee361 {
 	font-family: Arial, sans-serif;
-	text-align: left
-}
-.ee362 {
-	font-family: Arial, sans-serif;
 	text-align: left;
 	vertical-align: middle;
 	white-space: normal
+}
+.ee362 {
+	font-family: Arial, sans-serif;
+	text-align: left
 }
 .ee363 {
 	color: #000;
